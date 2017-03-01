@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		855D565F1E656D6B00206BE0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 855D565E1E656D6A00206BE0 /* UIView+Extension.m */; };
+		855D56611E657C5000206BE0 /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 855D56601E657C5000206BE0 /* FFTspark.png */; };
 		8577B8581E5FDCD100E64BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B8571E5FDCD100E64BFF /* main.m */; };
 		8577B85B1E5FDCD100E64BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B85A1E5FDCD100E64BFF /* AppDelegate.m */; };
 		8577B85E1E5FDCD100E64BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B85D1E5FDCD100E64BFF /* ViewController.m */; };
@@ -15,6 +17,12 @@
 		8577B8661E5FDCD100E64BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8577B8641E5FDCD100E64BFF /* LaunchScreen.storyboard */; };
 		8577B8711E5FDCD100E64BFF /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B8701E5FDCD100E64BFF /* ____Tests.m */; };
 		8577B87C1E5FDCD200E64BFF /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B87B1E5FDCD200E64BFF /* ____UITests.m */; };
+		8577B88B1E5FDCF400E64BFF /* ActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B88A1E5FDCF400E64BFF /* ActionButton.m */; };
+		8577B88E1E5FE06500E64BFF /* Stars.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B88D1E5FE06500E64BFF /* Stars.m */; };
+		8577B8911E5FE6AC00E64BFF /* FireView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8577B8901E5FE6AC00E64BFF /* FireView.m */; };
+		8577B8951E6000F300E64BFF /* 1_star_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8577B8921E6000F300E64BFF /* 1_star_1@3x.png */; };
+		8577B8961E6000F300E64BFF /* 1_star_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8577B8931E6000F300E64BFF /* 1_star_2@3x.png */; };
+		8577B8971E6000F300E64BFF /* 1_star_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8577B8941E6000F300E64BFF /* 1_star_3@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		855D565D1E656D6A00206BE0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		855D565E1E656D6A00206BE0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		855D56601E657C5000206BE0 /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
 		8577B8531E5FDCD000E64BFF /* 生日烟火.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "生日烟火.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8577B8571E5FDCD100E64BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8577B8591E5FDCD100E64BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,15 @@
 		8577B8771E5FDCD200E64BFF /* 生日烟火UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "生日烟火UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8577B87B1E5FDCD200E64BFF /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		8577B87D1E5FDCD200E64BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8577B8891E5FDCF400E64BFF /* ActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionButton.h; sourceTree = "<group>"; };
+		8577B88A1E5FDCF400E64BFF /* ActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionButton.m; sourceTree = "<group>"; };
+		8577B88C1E5FE06500E64BFF /* Stars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stars.h; sourceTree = "<group>"; };
+		8577B88D1E5FE06500E64BFF /* Stars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stars.m; sourceTree = "<group>"; };
+		8577B88F1E5FE6AC00E64BFF /* FireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireView.h; sourceTree = "<group>"; };
+		8577B8901E5FE6AC00E64BFF /* FireView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireView.m; sourceTree = "<group>"; };
+		8577B8921E6000F300E64BFF /* 1_star_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_star_1@3x.png"; sourceTree = "<group>"; };
+		8577B8931E6000F300E64BFF /* 1_star_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_star_2@3x.png"; sourceTree = "<group>"; };
+		8577B8941E6000F300E64BFF /* 1_star_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1_star_3@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +121,22 @@
 		8577B8551E5FDCD000E64BFF /* 生日烟火 */ = {
 			isa = PBXGroup;
 			children = (
+				8577B8921E6000F300E64BFF /* 1_star_1@3x.png */,
+				8577B8931E6000F300E64BFF /* 1_star_2@3x.png */,
+				8577B8941E6000F300E64BFF /* 1_star_3@3x.png */,
+				855D56601E657C5000206BE0 /* FFTspark.png */,
 				8577B8591E5FDCD100E64BFF /* AppDelegate.h */,
 				8577B85A1E5FDCD100E64BFF /* AppDelegate.m */,
+				8577B88C1E5FE06500E64BFF /* Stars.h */,
+				8577B88D1E5FE06500E64BFF /* Stars.m */,
+				8577B88F1E5FE6AC00E64BFF /* FireView.h */,
+				8577B8901E5FE6AC00E64BFF /* FireView.m */,
+				8577B8891E5FDCF400E64BFF /* ActionButton.h */,
+				8577B88A1E5FDCF400E64BFF /* ActionButton.m */,
 				8577B85C1E5FDCD100E64BFF /* ViewController.h */,
 				8577B85D1E5FDCD100E64BFF /* ViewController.m */,
+				855D565D1E656D6A00206BE0 /* UIView+Extension.h */,
+				855D565E1E656D6A00206BE0 /* UIView+Extension.m */,
 				8577B85F1E5FDCD100E64BFF /* Main.storyboard */,
 				8577B8621E5FDCD100E64BFF /* Assets.xcassets */,
 				8577B8641E5FDCD100E64BFF /* LaunchScreen.storyboard */,
@@ -250,8 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8577B8661E5FDCD100E64BFF /* LaunchScreen.storyboard in Resources */,
+				855D56611E657C5000206BE0 /* FFTspark.png in Resources */,
+				8577B8971E6000F300E64BFF /* 1_star_3@3x.png in Resources */,
 				8577B8631E5FDCD100E64BFF /* Assets.xcassets in Resources */,
+				8577B8961E6000F300E64BFF /* 1_star_2@3x.png in Resources */,
 				8577B8611E5FDCD100E64BFF /* Main.storyboard in Resources */,
+				8577B8951E6000F300E64BFF /* 1_star_1@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8577B8911E5FE6AC00E64BFF /* FireView.m in Sources */,
 				8577B85E1E5FDCD100E64BFF /* ViewController.m in Sources */,
+				8577B88E1E5FE06500E64BFF /* Stars.m in Sources */,
+				855D565F1E656D6B00206BE0 /* UIView+Extension.m in Sources */,
 				8577B85B1E5FDCD100E64BFF /* AppDelegate.m in Sources */,
 				8577B8581E5FDCD100E64BFF /* main.m in Sources */,
+				8577B88B1E5FDCF400E64BFF /* ActionButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5CJ3C37V5L;
 				INFOPLIST_FILE = "生日烟火/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "W.winny1.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5CJ3C37V5L;
 				INFOPLIST_FILE = "生日烟火/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "W.winny1.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +556,7 @@
 				8577B8821E5FDCD200E64BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8577B8831E5FDCD200E64BFF /* Build configuration list for PBXNativeTarget "生日烟火Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +565,7 @@
 				8577B8851E5FDCD200E64BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8577B8861E5FDCD200E64BFF /* Build configuration list for PBXNativeTarget "生日烟火UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +574,7 @@
 				8577B8881E5FDCD200E64BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
